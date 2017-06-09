@@ -1,0 +1,9 @@
+Usage example
+```python
+bnetsrp3.py username password 0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF
+
+# output
+salt	: 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+x	: a145033a2417b6e9de9d649a5aa5058ec6ddecf6
+verifier  : f8e63df16088154a8a2fa63b96d33454b0c61c22e156eb655caf7f5947208b4b
+```
