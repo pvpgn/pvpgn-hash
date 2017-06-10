@@ -2,7 +2,7 @@ Usage example
 
 ```perl
 #!/usr/bin/perl
-do 'pvpgn_hash.pl';
+do 'pvpgnhash.pl';
 
 $pass = '12345';
 $hash = pvpgn_hash($pass);

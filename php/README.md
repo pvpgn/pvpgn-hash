@@ -3,7 +3,7 @@ Usage example
 ```php
 <?php
     // initialize class
-    require_once("pvpgn_hash.class.php");
+    require_once("pvpgnhash.class.php");
 
     $pass = "12345";
     $hash = pvpgn_hash::get_hash($pass);
