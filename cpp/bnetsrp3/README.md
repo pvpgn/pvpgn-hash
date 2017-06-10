@@ -1,3 +1,7 @@
+The code was pulled out from PvPGN
+
+https://github.com/pvpgn/pvpgn-server/blob/master/src/common/bnetsrp3.cpp
+
 To compile place files in pvpgn source dir: src/client
 
 Usage example
