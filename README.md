@@ -1,5 +1,5 @@
 
-Battle.net hash algorithm implementation on different languages.
+Battle.net hash algorithm implementations on different languages.
 
 ## Live example
 http://harpywar.pvpgn.pl/?do=hash

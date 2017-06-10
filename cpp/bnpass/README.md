@@ -1,8 +1,10 @@
 https://github.com/pvpgn/pvpgn-server/tree/master/src/bnpass
 
+https://github.com/pvpgn/pvpgn-server/blob/master/src/common/bnethash.cpp
+
 Usage example
 
-```bat
+```bash
 # this is a command line program
 
 ./bnpass 12345
