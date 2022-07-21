@@ -28,8 +28,8 @@ func safeHash(input []byte) []byte {
 	copy(buf[:], input)
 	mem := memorystream.NewBytes(buf[:])
 
+	var expr_ldata_i, expr_ldata_i_2, expr_ldata_i_8, expr_ldata_i_13 uint32
 	for i := 0; i < 64; i++ {
-		var expr_ldata_i, expr_ldata_i_2, expr_ldata_i_8, expr_ldata_i_13 uint32
 		mem.Seek(int64(i*4), memorystream.Start)
 		binary.Read(mem, binary.LittleEndian, &expr_ldata_i)
 		mem.Seek(int64(1*4), memorystream.Current)
